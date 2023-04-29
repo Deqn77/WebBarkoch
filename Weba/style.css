@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+    font-size: 50px;
+    border: 15px solid greenyellow;
+    text-align: center;
+    background-color:black;
+}
+
+p {
+    background-color:black;
+    color:blue;
+    border: 5px solid greenyellow;
+
+}
+ ul li a {
+    color:green
+    
+ }
+ html{
+    color:blue
+ }
