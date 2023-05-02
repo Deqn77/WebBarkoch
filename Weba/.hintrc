@@ -23,6 +23,7 @@
           "aspect-ratio"
         ]
       }
-    ]
+    ],
+    "detect-css-reflows/composite": "off"
   }
 }
