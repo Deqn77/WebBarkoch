@@ -1,11 +1,16 @@
 
 h1 {
-  color: red;
+  color:skyblue;
   font-size: 50px;
-  border-left: 5px solid red;
-  border-right: 5px solid red;
+  border-left: 5px solid skyblue;
+  border-right: 5px solid skyblue;
   text-align: center;
-  background-color: #455047;
+  background-color: black;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  text-shadow: 0px 5px 0px grey;
+
+
 }
 #container {
     width: 80%;
@@ -35,5 +40,5 @@ h1 {
     scroll-snap-align: end;
   }
   body {
-    background-color: lightblue;
+    background: linear-gradient(skyblue,lightgreen);
   }

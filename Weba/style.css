@@ -1,7 +1,11 @@
 h1 {
-    color: yellow;
+    color: skyblue;
     font-size: 50px;
     text-align: center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    text-shadow: 0px 5px 0px grey;
+    background-color: white;
 
 }
 
@@ -21,7 +25,7 @@ h2 {
 p {
     font-size: 1.5em;
 
-    color: blue;
+    color:skyblue;
     text-align: left;
     border-left-style: solid;
     border-left-color: coral;
@@ -32,9 +36,12 @@ p {
 }
 
 h3 {
-
+    
+    font-size: 20px;
+    color:skyblue;
     text-align: center;
     border-left-color: coral;
+    background-color: white,;
 }
 
 
@@ -42,19 +49,19 @@ h3 {
 ul li {
     color: green;
     border: 20px white;
-
+    
 
 }
 
 html {
-    color: #0000ff;
+    color:yellow;
 
 
 }
 
 body {
-    background: black url("redbull.jpg") no-repeat fixed center;
-
+    background: black url("") no-repeat fixed center;
+    
 }
 
 a:link,
@@ -88,6 +95,7 @@ a:visited {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
+    
 }
 
 
@@ -124,56 +132,33 @@ a:visited {
     }
 }
 
-body {
-
-    font-family: Copperplate, Papyrus, fantasy;
-
-}
 
 body {
-    background-image: url("dior.jpg");
     background-repeat: no-repeat;
     background-position-x: 50%;
 }
 
 
 h1 {
-    border-block: 5px solid yellow;
+    border-block: 5px solid black;
 
 }
 
 h2 {
-    border-block: 4px dotted blue;
+   
+    background-color: black;
+    inline-size: 70%;
+    border-block-end-style: solid;
+    border-block-end-width: 10px;
+    text-align: center;
 }
 
 div {
     border-block: double;
 }
 
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px ;
-    cursor: pointer;
-    
-}
-.btn-group .button {
-    background-color: yellowgreen; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    
-    
-  }
+
+
+
+
   
