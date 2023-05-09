@@ -28,8 +28,7 @@ p {
     color:skyblue;
     text-align: left;
     border-left-style: solid;
-    border-left-color: coral;
-
+   
 
 
 
@@ -43,25 +42,85 @@ h3 {
     border-left-color: coral;
     background-color: white,;
 }
-
-
-
+ul{
+    margin:0;
+    padding:0;
+    display:flex
+}
 ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+
+ul li a{
     color: green;
     border: 20px white;
+    text-transform: uppercase;
+    transition: 0.5s;
+    position: relative;
+    display: block;
+
     
 
 }
+ul:hover li a {
+  transform:scale(2); 
+  opacity:67;
+  filter:blur(7px);
+}
+ul li {
+    font-size: 1.5em;
+  
+    color: skyblue;
+    text-align: left;
+  
+  }
+
 
 html {
-    color:yellow;
+    color:skyblue;
 
 
+}
+.btn{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px;
+}
+.bnt::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: linear-gradient(to 
+    right,#0fd850 0%,#f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.btn:hover::before{
+    width: 9em;
 }
 
 body {
     background: black url("") no-repeat fixed center;
-    
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 a:link,
